@@ -1,10 +1,16 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 from my_functions import intro_to_program, show_refresh_time
+from file_functions import file_program
 
 
-intro_to_program()
-show_refresh_time()
+print("Choose your program you want to use: \n"
+      "[1] Refreshing datetime\n"
+      "[2] File Program")
+
+user_choice = int(input("Enter your choice: "))
+
+if user_choice == 1:
+    intro_to_program()
+    show_refresh_time()
+else:
+    file_program()

@@ -4,6 +4,7 @@ from colorama import Fore, Back, Style
 
 
 def intro_to_program():
+    #Chage font color,bg and add style stars
     print(Back.YELLOW + Fore.BLACK + "\n\n" + ("*" * 40) + "\nWelcome to the App DateTime Now!\n" + ("*" * 40) + "\n")
     print(Style.RESET_ALL)
 
