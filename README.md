@@ -1,2 +1,2 @@
 # Python-Vezbe
-Trenutno ucim python 
+Trenutno ucim python samo kroz moje projekete
